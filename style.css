@@ -1,0 +1,43 @@
+button {
+    background-color: transparent;
+    border: none;
+}
+
+header {
+    display: flex;
+}
+
+#logo {
+    height: 64px;
+    cursor: pointer;
+}
+
+#little-search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dddddd;
+}
+
+.little-search-button {
+    padding: 0 16px;
+}
+
+.divider {
+    flex-basis: 1px;
+    background-color: #dddddd;
+    height: 24px;
+}
+
+#magnigying-glass-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff385c;
+    border-radius: 50%;
+    flex-basis: 32px;
+    height: 32px;
+}
+
+#magnifying-glass-icon {
+    width: 12px;
+}
