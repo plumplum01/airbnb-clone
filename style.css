@@ -5,6 +5,14 @@ button {
 
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    height: 80px;
+}
+
+body {
+    margin: 0;
 }
 
 #logo {
@@ -23,6 +31,11 @@ header {
     padding: 0 8px;
     box-sizing: border-box;
     box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+    cursor: pointer;
+}
+
+#little-search * {
+    cursor: pointer;
 }
 
 .little-search-button {
@@ -57,4 +70,18 @@ header {
 
 #magnifying-glass-icon {
     width: 12px;
+}
+
+
+#do-airbnb {
+    font-size: 14px;
+    font-weight: 600;
+    color: #222222;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 22px;
+}
+
+#do-airbnb:hover {
+    background-color: #f7f7f7;
 }
